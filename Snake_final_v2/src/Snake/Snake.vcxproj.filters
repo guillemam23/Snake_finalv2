@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{39262ad7-f4a1-4d1c-9575-bed4f1f66bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuScene.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelScene.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingScene.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="IOManager.cc">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.hh">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hh">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hh">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.hh">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ID.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Assert.hh">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.hh">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.hh">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.hh">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelScene.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManager.hh">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingScene.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.hh">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\res\cfg\Easy.xml">
+      <Filter>Utils</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
